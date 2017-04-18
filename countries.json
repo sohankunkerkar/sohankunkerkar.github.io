@@ -258,5 +258,565 @@
     "key": "os.Seek()",
     "region": "OS",
     "value": 2
+  },
+  {
+    "key": "os.Stat()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.Sync()",
+    "region": "OS",
+    "value": 2
+  },
+  {
+    "key": "os.Truncate()",
+    "region": "OS",
+    "value": 2
+  },
+  {
+    "key": "os.Write()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.WriteAt()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "os.WriteString()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "os.Lstat()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.IsDir()",
+    "region": "OS",
+    "value": 8
+  },
+  {
+    "key": "os.IsRegular()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "os.Perm()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "os.String()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.Error()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.FindProcess()",
+    "region": "OS",
+    "value": 8
+  },
+  {
+    "key": "os.StartProcess()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.Kill()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.Release()",
+    "region": "OS",
+    "value": 6
+  },
+  {
+    "key": "os.Signal()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.Wait()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.Exited()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.Pid()",
+    "region": "OS",
+    "value": 1
+  },
+  {
+    "key": "os.Success()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "os.Sys()",
+    "region": "OS",
+    "value": 10
+  },
+  {
+    "key": "os.SysUsage()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "os.SystemTime()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "os.UserTime()",
+    "region": "OS",
+    "value": 0
+  },
+  {
+    "key": "net.InterfaceAddrs()",
+    "region": "NET",
+    "value": 5
+  },
+  {
+    "key": "net.Interfaces()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.JoinHostPort()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.LookupAddr()",
+    "region": "NET",
+    "value": 6
+  },
+  {
+    "key": "net.LookupCNAME()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "net.LookupHost()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.LookupIP()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.LookupMX()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "net.LookupNS()",
+    "region": "NET",
+    "value": 2
+  },
+  {
+    "key": "net.LookupPort()",
+    "region": "NET",
+    "value": 1
+  },
+  {
+    "key": "net.LookupSRV()",
+    "region": "NET",
+    "value": 3
+  },
+  {
+    "key": "net.LookupTXT()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "net.SplitHostPort()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.Read()",
+    "region": "NET",
+    "value": 3
+  },
+  {
+    "key": "net.WriteTo()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "net.DialTimeout()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.FileConn()",
+    "region": "NET",
+    "value": 2
+  },
+  {
+    "key": "net.Pipe()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.Temporary()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "net.Error()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.Timeout()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "net.Dial()",
+    "region": "NET",
+    "value": 10
+  },
+  {
+    "key": "net.DialContext()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "net.ParseMAC()",
+    "region": "NET",
+    "value": 1
+  },
+  {
+    "key": "net.String()",
+    "region": "NET",
+    "value": 0
+  },
+  {
+    "key": "sort.s()",
+    "region": "SORT",
+    "value": 2
+  },
+  {
+    "key": "sort.sAreSorted()",
+    "region": "SORT",
+    "value": 0
+  },
+  {
+    "key": "sort.Ints()",
+    "region": "SORT",
+    "value": 10
+  },
+  {
+    "key": "sort.IntsAreSorted()",
+    "region": "SORT",
+    "value": 1
+  },
+  {
+    "key": "sort.IsSorted()",
+    "region": "SORT",
+    "value": 2
+  },
+  {
+    "key": "sort.Search()",
+    "region": "SORT",
+    "value": 10
+  },
+  {
+    "key": "sort.SearchInts()",
+    "region": "SORT",
+    "value": 8
+  },
+  {
+    "key": "sort.SearchStrings()",
+    "region": "SORT",
+    "value": 3
+  },
+  {
+    "key": "sort.Slice()",
+    "region": "SORT",
+    "value": 9
+  },
+  {
+    "key": "sort.SliceIsSorted()",
+    "region": "SORT",
+    "value": 0
+  },
+  {
+    "key": "sort.SliceStable()",
+    "region": "SORT",
+    "value": 0
+  },
+  {
+    "key": "sort.Sort()",
+    "region": "SORT",
+    "value": 10
+  },
+  {
+    "key": "sort.Stable()",
+    "region": "SORT",
+    "value": 3
+  },
+  {
+    "key": "sort.Strings()",
+    "region": "SORT",
+    "value": 10
+  },
+  {
+    "key": "sort.StringsAreSorted()",
+    "region": "SORT",
+    "value": 0
+  },
+  {
+    "key": "sort.Less()",
+    "region": "SORT",
+    "value": 0
+  },
+  {
+    "key": "sort.Len()",
+    "region": "SORT",
+    "value": 0
+  },
+  {
+    "key": "sort.Swap()",
+    "region": "SORT",
+    "value": 5
+  },
+  {
+    "key": "sort.Reverse()",
+    "region": "SORT",
+    "value": 10
+  },
+  {
+    "key": "runtime.BlockProfile()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.Breakpoint()",
+    "region": "RUNTIME",
+    "value": 1
+  },
+  {
+    "key": "runtime.CPUProfile()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.Caller()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.Callers()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.GC()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.GOMAXPROCS()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.GOROOT()",
+    "region": "RUNTIME",
+    "value": 4
+  },
+  {
+    "key": "runtime.Goexit()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.GoroutineProfile()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.Gosched()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.KeepAlive()",
+    "region": "RUNTIME",
+    "value": 1
+  },
+  {
+    "key": "runtime.LockOSThread()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.MemProfile()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.MutexProfile()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.NumCPU()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.NumCgoCall()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.NumGoroutine()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.ReadMemStats()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.ReadTrace()",
+    "region": "RUNTIME",
+    "value": 1
+  },
+  {
+    "key": "runtime.SetBlockProfileRate()",
+    "region": "RUNTIME",
+    "value": 6
+  },
+  {
+    "key": "runtime.SetCPUProfileRate()",
+    "region": "RUNTIME",
+    "value": 1
+  },
+  {
+    "key": "runtime.SetCgoTraceback()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.SetFinalizer()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.SetMutexProfileFraction()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.Stack()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.StartTrace()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.StopTrace()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.ThreadCreateProfile()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.UnlockOSThread()",
+    "region": "RUNTIME",
+    "value": 9
+  },
+  {
+    "key": "runtime.Version()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.RuntimeError()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.Name()",
+    "region": "RUNTIME",
+    "value": 3
+  },
+  {
+    "key": "runtime.CallersFrames()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.Next()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.FuncForPC()",
+    "region": "RUNTIME",
+    "value": 10
+  },
+  {
+    "key": "runtime.Entry()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.FileLine()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.InUseBytes()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.InUseObjects()",
+    "region": "RUNTIME",
+    "value": 0
+  },
+  {
+    "key": "runtime.Error()",
+    "region": "RUNTIME",
+    "value": 4
+  },
+  {
+    "key": "html.EscapeString()",
+    "region": "HTML",
+    "value": 10
+  },
+  {
+    "key": "html.UnescapeString()",
+    "region": "HTML",
+    "value": 3
   }
 ]
